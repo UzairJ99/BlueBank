@@ -1,0 +1,334 @@
+.navbar {
+	background-color: #4286f4;
+	border-color: #4286f4;
+	border-radius: 0;
+	color: black;
+	height: 70px;
+	padding-top: 10px;
+}
+
+.navbar-toggle.collapsed {
+	background-color: #4286f4;
+	border-color: black;
+	color: black;
+}
+
+.navbar-toggle.collapsed:hover {
+	background-color: #4286f4;
+	border-color: black;
+	color: black;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #4286f4;
+	border-color: black;
+	color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+#logo {
+	margin-top: -15px;
+	height: 50px;
+	width: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #4286f4;
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+	background-color: #4286f4;
+	color: black;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #4286f4;
+	color: black;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #4286f4;
+	color: black;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #4286f4;
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #4286f4;
+	color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+	background-color: #4286f4;
+	color: black;
+}
+
+button {
+	color: black;
+}
+
+.main {
+	background-color: white;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: right 70px;
+/*	background-position: fixed;*/
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.contact {
+	background-color: white;
+	background-image: url("contactBackground.jpg");
+	background-repeat: no-repeat;
+	/*background-position: right 70px;*/
+	background-position: fixed;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.register {
+	background-color: white;
+	background-image: url("registerBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: right 70px;*/
+	background-position: fixed;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.login {
+	background-color: #2b95f9;
+	background-image: url("living room.png");
+	background-repeat: no-repeat;
+	/*background-position: right 70px;*/
+	/*background-size: 100%;*/
+	/*background-height: 50%;*/
+	background-position: fixed;
+	background-attachment: fixed;
+	overflow-y: hidden;
+}
+
+#welcomeContainer {
+	margin-top: 30px;
+	width: 100%;
+	z-index: 100;
+	background-color: #f4f4f4;
+	margin-bottom: 0;
+}
+
+#redirected {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+#contact-info-container {
+	margin-top: 10%;
+	width: 50%;
+	z-index: 100;
+	padding: 50px;
+	/*padding-right: 80px;*/
+	padding-top: 30px;
+	background-color: #f4f4f4;
+	margin-bottom: 0;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#login-container {
+	margin-top: 70px;
+	margin-right: 0;
+	margin-bottom: 0;
+	height: 100%;
+	width: 50%;
+	z-index: 100;
+	padding: 100px;
+	padding-top: 10%;
+	padding-bottom: 40%;
+	background-color: #2b95f9;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#inputText {
+	margin-left: 0;
+}
+
+#heading {
+	text-align: center;
+	animation: flashAlert linear 0.3s;
+}
+
+#heading-two {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 30px;
+	animation: flashAlert linear 0.3s;
+}
+
+#heading-three {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+	animation: flashAlert linear 0.3s;
+}
+
+#heading-four {
+	text-align: center;
+	color: white;
+	animation: flashAlert linear 0.3s;
+}
+
+#login-label {
+	color: white;
+}
+
+#contact-link {
+	color: white;
+}
+
+#thumbnail-icon {
+	background-color: transparent;
+	border: none;
+	width: 100px;
+	text-align: center;
+}
+
+#iconsContainer {
+	max-width: 530px;
+}
+
+#icon {
+	width: 100px;
+	margin-right: 30px;
+}
+
+.img-circle {
+	border: 2px solid;
+	border-color: #4286f4;
+}
+
+.jumbotron p {
+	margin-top: 5px;
+	font-family: "arial";
+	font-size: 16px;
+}
+
+a.thumbnail {
+	text-decoration-line: none;
+}
+
+.jumbotron a {
+	text-decoration-line: none;
+}
+
+#main-ad {
+	position: relative;
+	height: 200px;
+	width: 410px;
+	margin-top: 100px;
+	margin-left: 30px;
+	background-color: transparent;
+}
+
+.main-ad-title {
+	padding: 20px;
+	color: #101f38;
+	animation: flashAlert linear 0.3s;
+}
+
+#main-ad-content {
+	padding-left: 20px;
+	align-content: center;
+	animation: flashAlert linear 0.3s;
+}
+
+#main-ad-buttons {
+	width: 45%;
+	margin-right: 11px;
+	animation: flashAlert linear 0.3s;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    width: 100%
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #1a335e, #ccc);
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    width: 50%
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, black, #ccc);
+}
+
+#main-ad-smallFont {
+	padding-left: 20px;
+	font-size: 14px;
+	color: #101f38;
+}
+
+div.thumbnail {
+	padding: 0;
+	/*transition: all 0.3s;*/
+}
+
+#reasonsList {
+	padding-left: 40px;
+}
+
+li {
+ 	text-align: left;
+ 	color: black;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: black;
+}
+
+.dropdown-menu .divider {
+	background-color: #689df2;
+}
+
+#bottom-panel {
+	background-color: #4286f4;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 215px;
+}
+
+#submitLoginBtn {
+	width: 100%;
+}
+
+#flashBar {
+	animation: flashAlert linear 0.3s;
+}
+
+@-webkit-keyframes flashAlert {
+	from {
+		opacity: 0.5;
+		transform: scale(0.8);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
